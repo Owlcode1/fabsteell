@@ -15260,7 +15260,12 @@ span.select2-selection.select2-selection--single:focus {
   z-index: 9;
 }
 .team-card:hover .team-img {
-  background: var(--theme-color);
+  background: -webkit-linear-gradient(
+    right,
+    var(--theme-color3),
+    var(--theme-color)
+  );
+  background: linear-gradient(to left, var(--theme-color3), var(--theme-color));
   -webkit-transform: rotate(-15deg);
   -ms-transform: rotate(-15deg);
   transform: rotate(-15deg);
