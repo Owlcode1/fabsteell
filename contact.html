@@ -287,7 +287,7 @@
                   <form
                     action="https://fabsteele.free.nf/contact.php"
                     method="POST"
-                    class="contact-form ajax-contact"
+                    class="contact-form"
                   >
                   
                     <div class="row">
@@ -298,6 +298,7 @@
                           name="name"
                           id="name"
                           placeholder="Your name"
+                          required
                         />
                         <i class="far fa-user"></i>
                       </div>
@@ -308,6 +309,7 @@
                           name="email"
                           id="email"
                           placeholder="Email Address"
+                          required
                         />
                         <i class="far fa-envelope"></i>
                       </div>
@@ -318,6 +320,7 @@
                           name="number"
                           id="number"
                           placeholder="Phone Number"
+                          required
                         />
                         <i class="far fa-phone"></i>
                       </div>
@@ -326,6 +329,7 @@
                           name="subject"
                           id="subject"
                           class="form-select bg-white"
+                          required
                         >
                           <option
                             value=""
@@ -362,6 +366,7 @@
                           name="company"
                           id="subject"
                           placeholder="Company name"
+                          required
                         />
                         <i class="far fa-circle-info"></i>
                       </div>
@@ -373,6 +378,7 @@
                           rows="3"
                           class="form-control"
                           placeholder="How can we help you? feel free to get in touch!*"
+                          required
                         ></textarea>
                       </div>
                       <input type="text" name="website" style="display:none">
