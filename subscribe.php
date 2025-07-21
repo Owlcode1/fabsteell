@@ -55,8 +55,8 @@ $subscriberCount = count($cleanedSubscribers);
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'praveenjo2001@gmail.com';         // Replace with your Gmail
-        $mail->Password   = 'mcjopbecsayemyxo';           // App Password
+        $mail->Username   = 'jagatheswaran@fabsteele.co.in';         // Replace with your Gmail
+        $mail->Password   = 'ksexlzxhrekolqst';           // ksexlzxhrekolqst
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 

@@ -33,8 +33,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // SMTP Configuration
     $smtpHost = 'smtp.gmail.com';
-    $smtpUser = 'praveenjo2001@gmail.com'; // Replace with your Gmail
-    $smtpPass = 'mcjopbecsayemyxo';        // Gmail App Password
+    $smtpUser = 'jagatheswaran@fabsteele.co.in'; // Replace with your Gmail
+    $smtpPass = 'ksexlzxhrekolqst';        // ksexlzxhrekolqst
     $smtpPort = 587;
 
     $ownerMail = new PHPMailer(true);
